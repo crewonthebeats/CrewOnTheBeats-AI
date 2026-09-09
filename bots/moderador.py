@@ -1,4 +1,19 @@
+
+
 CrewOnTheBeats-AI/
+
+
+CrewOnTheBeats-AI/
+│
+├── bots/
+│   └── moderador.py
+│
+├── config/
+│
+├── prompts/
+│
+├── requirements.txt
+└── README.md
 
 
 import os
