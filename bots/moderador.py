@@ -1,6 +1,5 @@
 CrewOnTheBeats-AI/
-│
-├── 
+
 
 import os
 import discord
