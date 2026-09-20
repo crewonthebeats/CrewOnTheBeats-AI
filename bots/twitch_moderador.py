@@ -19,14 +19,14 @@ TWITCH_CHANNEL = os.getenv("https://www.twitch.tv/dabynhogta")
 class BotTwitch(commands.Bot):
     def __init__(self):
         super().__init__(
-            token=TWITCH_TOKEN,
+            token=CrewOnTheBeats-MOD,
             prefix="!",
-            initial_channels=[TWITCH_CHANNEL],
+            initial_channels=[https://www.twitch.tv/dabynhogta],
         )
 
     async def event_ready(self):
         print(f"✅ Bot conectado como: {self.nick}")
-        print(f"🎮 Canal: {TWITCH_CHANNEL}")
+        print(f"🎮 Canal: ("{https://www.twitch.tv/dabynhogta}")
 
     async def event_message(self, message):
         # Ignorar mensajes del propio bot
