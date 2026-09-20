@@ -81,11 +81,7 @@ class TwitchModerador(commands.Bot):
 # INICIAR
 # =========================
 
-if not TWITCH_TOKEN:
 
-    raise RuntimeError(
-        ""
-    )
 
 bot = TwitchModerador()
 
