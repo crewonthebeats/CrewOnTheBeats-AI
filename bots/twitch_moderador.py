@@ -11,7 +11,7 @@ from twitchio.ext import commands
 
 load_dotenv()
 
-TWITCH_TOKEN = os.getenv("CrewOnTheBeats-MOD")
+TWITCH_TOKEN = os.getenv("http://localhost:3000")
 TWITCH_NICK = os.getenv("dabynhogta")
 TWITCH_CHANNEL = os.getenv("https://www.twitch.tv/dabynhogta")
 
@@ -19,7 +19,7 @@ TWITCH_CHANNEL = os.getenv("https://www.twitch.tv/dabynhogta")
 class BotTwitch(commands.Bot):
     def __init__(self):
         super().__init__(
-            token=CrewOnTheBeats-MOD,
+            token=http://localhost:3000,
             prefix="!",
             initial_channels=[https://www.twitch.tv/dabynhogta],
         )
