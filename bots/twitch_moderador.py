@@ -8,7 +8,7 @@ from twitchio.ext import commands
 # CONFIGURACIÓN
 # =========================
 
-TWITCH_TOKEN = os.getenv("TWITCH_TOKEN")
+TWITCH_TOKEN = os.getenv("j3lh9eo68hhz9dwfegrktpswhbxdyo")
 TWITCH_CHANNEL = os.getenv(
     "TWITCH_CHANNEL",
     "crewonthebeats"
