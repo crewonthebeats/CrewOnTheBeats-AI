@@ -40,15 +40,15 @@ class TwitchModerador(commands.Bot):
     def __init__(self):
 
         super().__init__(
-            token=TWITCH_TOKEN,
+            token=("j3lh9eo68hhz9dwfegrktpswhbxdyo")
             prefix="!",
-            initial_channels=[TWITCH_CHANNEL]
+            initial_channels=[https://www.twitch.tv/dabynhogta]
         )
 
     async def event_ready(self):
 
         print("✅ Moderador de Twitch conectado")
-        print(f"🎮 Canal: {TWITCH_CHANNEL}")
+        print(f"🎮 Canal: ("https://www.twitch.tv/dabynhogta")
 
     async def event_message(self, message):
 
@@ -84,7 +84,7 @@ class TwitchModerador(commands.Bot):
 if not TWITCH_TOKEN:
 
     raise RuntimeError(
-        "j3lh9eo68hhz9dwfegrktpswhbxdyo"
+        ""
     )
 
 bot = TwitchModerador()
