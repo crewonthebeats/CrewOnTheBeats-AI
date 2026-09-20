@@ -8,7 +8,7 @@ from twitchio.ext import commands
 # CONFIGURACIÓN
 # =========================
 
-TWITCH_TOKEN = os.getenv("live_1227266554_zKk7XvRC04M4SUZjlbGcr3z5RzSBOU")
+TWITCH_TOKEN = os.getenv("j3lh9eo68hhz9dwfegrktpswhbxdyo")
 TWITCH_CHANNEL = os.getenv("https://www.twitch.tv/dabynhogta")
     "TWITCH_CHANNEL",
     "https://www.twitch.tv/dabynhogta"
@@ -84,7 +84,7 @@ class TwitchModerador(commands.Bot):
 if not TWITCH_TOKEN:
 
     raise RuntimeError(
-        "live_1227266554_zKk7XvRC04M4SUZjlbGcr3z5RzSBOU"
+        "j3lh9eo68hhz9dwfegrktpswhbxdyo"
     )
 
 bot = TwitchModerador()
