@@ -11,7 +11,7 @@ from twitchio.ext import commands
 
 load_dotenv()
 
-TWITCH_TOKEN = os.getenv("http://localhost:3000")
+TWITCH_TOKEN = os.getenv("https://www.twitch.tv/dabynhogta")
 TWITCH_NICK = os.getenv("dabynhogta")
 TWITCH_CHANNEL = os.getenv("https://www.twitch.tv/dabynhogta")
 
